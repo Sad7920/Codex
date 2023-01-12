@@ -75,7 +75,7 @@ const handleSubmit = async (e) => {
   loader(messageDiv);
 
   //Fetch Data from the Server
-  const response = await fetch('http://localhost:4000', {
+  const response = await fetch('https://codex-rqdu.onrender.com', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
